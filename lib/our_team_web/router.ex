@@ -17,7 +17,7 @@ defmodule OurTeamWeb.Router do
   scope "/", OurTeamWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    get "/", AboutController, :about
   end
 
   # Other scopes may use custom stacks.
